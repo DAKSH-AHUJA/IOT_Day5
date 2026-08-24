@@ -20,7 +20,9 @@ public class Anagram {
         Arrays.sort(arr2);
        
         if (Arrays.equals(arr1, arr2)) {
-            System.out.println("The strings: " + s1 + " and " +  s2 + " are Anagram");
+            System.out.println("The strings: " + s1 + " "
+            		+ ""
+            		+ "and " +  s2 + " are Anagram");
         } else {
             System.out.println("Not an anagram");
         }
